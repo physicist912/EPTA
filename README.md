@@ -6,6 +6,20 @@ If you have any suggestion to improve the quality of codes, please contact with 
 Pre-requisites: python (above 3.0), pandas, numpy, matplotlib
 
 
+1.1 Get the list of available TOAs
+
+You can attach the lists of the TOAs from files.py in the pipeline to files.csv. 
+However, keep in mind that you need to delete the previous version of data if you want to renew it. 
+Otherwise, just insert the lists. You do not need to sort it according to the backend types because this code automatically sort them.
+
+The outputs of this code are 
+
+a. TOAs lists with the initial time and the final time
+b. Plot that shows the distribution of TOAs with respect to the year.
+
+
+2.1 compare uncertainties
+
 1. making csv file
 
 TEMPO2 will show up all parameters with the uncertainties. The reference papers may write parameters in this way: eg) 0.00000156(31) which is equivalent to 0.00000031. 
